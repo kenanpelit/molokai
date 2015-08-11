@@ -160,7 +160,7 @@ if &t_Co > 255
    hi DiffDelete      ctermfg=162 ctermbg=53
    hi DiffText                    ctermbg=102 cterm=bold
 
-   hi Directory       ctermfg=118               cterm=bold
+   hi Directory       ctermfg=245               cterm=bold
    hi Error           ctermfg=219 ctermbg=89
    hi ErrorMsg        ctermfg=199 ctermbg=16    cterm=bold
    hi Exception       ctermfg=118               cterm=bold
@@ -233,7 +233,7 @@ if &t_Co > 255
    hi SpecialKey      ctermfg=59
 
    if exists("g:rehash256") && g:rehash256 == 1
-       hi Normal       ctermfg=252 ctermbg=234
+       hi Normal       ctermfg=252 ctermbg=235
        hi CursorLine               ctermbg=236   cterm=none
        hi CursorLineNr ctermfg=208               cterm=none
 
@@ -246,7 +246,7 @@ if &t_Co > 255
 
        hi DiffDelete      ctermfg=125 ctermbg=233
 
-       hi Directory       ctermfg=154               cterm=bold
+       hi Directory       ctermfg=245               cterm=bold
        hi Error           ctermfg=222 ctermbg=233
        hi Exception       ctermfg=154               cterm=bold
        hi Float           ctermfg=141
